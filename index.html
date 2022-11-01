@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphiques</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/charts.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <h1>Graphiques faits avec Charts.css</h1>
+    <h2>Graphique en colonnes</h2>
+    <div id="my-chart">
+        <table class="charts-css column multiple show-labels show-heading show-primary-axis hide-data show-data-on-hover" id="chart1">
+            <caption> Front End Developer Salary </caption>
+            <tbody>
+                <tr>
+                    <th scope="row"> Asia </th>
+                    <td style="--size: calc(20 /100);"><span class="data">$20K</span></td>
+                    <td style="--size: calc(30 /100);"><span class="data">$30K</span></td>
+                    <td style="--size: calc(40 /100);"><span class="data">$40K</span></td>
+                    <td style="--size: calc(50 /100);"><span class="data">$50K</span></td>
+                    <td style="--size: calc(75 /100);"><span class="data">$75K</span></td>
+                </tr>
+                <tr>
+                    <th scope="row"> Europe </th>
+                    <td style="--size: calc(40 /100);"><span class="data">$40K</span></td>
+                    <td style="--size: calc(60 /100);"><span class="data">$60K</span></td>
+                    <td style="--size: calc(75 /100);"><span class="data">$75K</span></td>
+                    <td style="--size: calc(90 /100);"><span class="data">$90K</span></td>
+                    <td style="--size: calc(100 /100);"><span class="data">$100K</span></td>
+                </tr>
+            </tbody>
+        </table>
+        <ul class="charts-css legend legend-inline legend-circle">
+            <li>Année 1</li>
+            <li>Année 2</li>
+            <li>Année 3</li>
+            <li>Année 4</li>
+            <li>Année 5</li>
+        </ul>
+    </div>
+
+    <h2>Graphique en ligne</h2>
+    <div id="my-chart2">
+        <table class="charts-css line multiple reverse show-labels hide-data">
+            <caption> Programming languages </caption>
+            <thead>
+                <th>Année</th>
+                <th> Javascript </th>
+                <th> Python </th>
+                <th> Java </th>
+                <th> Typescript </th>
+                <th> C# </th>
+                <th> PHP </th>
+                <th> C++ </th>
+                <th> Shell </th>
+                <th> C </th>
+                <th> Ruby </th>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th scope="row"> 2014 </th>
+                    <td style="--start: .1; --size: .1;"> <span class="data"> 1 </span></td>
+                    <td style="--start: .4; --size: .4;"> <span class="data"> 4 </span> </td>
+                    <td style="--start: .2; --size: .2;"> <span class="data"> 2 </span> </td>
+                    <td style="--start: 0; --size: 0;"> <span class="data"> </span> </td>
+                    <td style="--start: .8; --size: .8;"> <span class="data"> 8 </span> </td>
+                    <td style="--start: .3; --size: .3;"> <span class="data"> 3 </span> </td>
+                    <td style="--start: .6; --size: .6;"> <span class="data"> 6 </span> </td>
+                    <td style="--start: .9; --size: .9;"> <span class="data"> 9 </span> </td>
+                    <td style="--start: .7; --size: .7;"> <span class="data"> 7 </span> </td>
+                    <td style="--start: .5; --size: .5;"> <span class="data"> 5 </span> </td>
+                </tr>
+                <tr>
+                    <th scope="row"> 2015 </th>
+                    <td style="--start: .1; --size: .1;"> <span class="data"> 1 </span> </td>
+                    <td style="--start: .4; --size: .3;"> <span class="data"> 3 </span> </td>
+                    <td style="--start: .2; --size: .2;"> <span class="data"> 2 </span> </td>
+                    <td style="--start: 0; --size: 0;"> <span class="data"> </span> </td>
+                    <td style="--start: .8; --size: .7;"> <span class="data"> 7 </span> </td>
+                    <td style="--start: .3; --size: .4;"> <span class="data"> 4 </span> </td>
+                    <td style="--start: .6; --size: .6;"> <span class="data"> 6 </span> </td>
+                    <td style="--start: .9; --size: .9;"> <span class="data"> 9 </span> </td>
+                    <td style="--start: .7; --size: .8;"> <span class="data"> 8 </span> </td>
+                    <td style="--start: .5; --size: .5;"> <span class="data"> 5 </span> </td>
+                </tr>
+                <tr>
+                    <th scope="row"> 2016 </th>
+                    <td style="--start: .1; --size: .1;"> <span class="data"> 1 </span> </td>
+                    <td style="--start: .3; --size: .3;"> <span class="data"> 3 </span> </td>
+                    <td style="--start: .2; --size: .2;"> <span class="data"> 2 </span> </td>
+                    <td style="--start: 0; --size: 0;"> <span class="data"> </span> </td>
+                    <td style="--start: .7; --size: .6;"> <span class="data"> 6 </span> </td>
+                    <td style="--start: .4; --size: .4;"> <span class="data"> 4 </span> </td>
+                    <td style="--start: .6; --size: .5;"> <span class="data"> 5 </span> </td>
+                    <td style="--start: .9; --size: .9;"> <span class="data"> 9 </span> </td>
+                    <td style="--start: .8; --size: .8;"> <span class="data"> 8 </span> </td>
+                    <td style="--start: .5; --size: .7;"> <span class="data"> 7 </span> </td>
+                </tr>
+                <tr>
+                    <th scope="row"> 2017 </th>
+                    <td style="--start: .1; --size: .1;"> <span class="data"> 1 </span> </td>
+                    <td style="--start: .3; --size: .3;"> <span class="data"> 3 </span> </td>
+                    <td style="--start: .2; --size: .2;"> <span class="data"> 2 </span> </td>
+                    <td style="--start: 1; --size: 1;"> <span class="data"> 10 </span> </td>
+                    <td style="--start: .6; --size: .6;"> <span class="data"> 6 </span> </td>
+                    <td style="--start: .4; --size: .4;"> <span class="data"> 4 </span> </td>
+                    <td style="--start: .5; --size: .5;"> <span class="data"> 5 </span> </td>
+                    <td style="--start: .9; --size: .8;"> <span class="data"> 8 </span> </td>
+                    <td style="--start: .8; --size: .7;"> <span class="data"> 7 </span> </td>
+                    <td style="--start: .7; --size: .9;"> <span class="data"> 9 </span> </td>
+                </tr>
+                <tr>
+                    <th scope="row"> 2018 </th>
+                    <td style="--start: .1; --size: .1;"> <span class="data"> 1 </span> </td>
+                    <td style="--start: .3; --size: .3;"> <span class="data"> 3 </span> </td>
+                    <td style="--start: .2; --size: .2;"> <span class="data"> 2 </span> </td>
+                    <td style="--start: 1; --size: .7;"> <span class="data"> 7 </span> </td>
+                    <td style="--start: .6; --size: .6;"> <span class="data"> 6 </span> </td>
+                    <td style="--start: .4; --size: .4;"> <span class="data"> 4 </span> </td>
+                    <td style="--start: .5; --size: .5;"> <span class="data"> 5 </span> </td>
+                    <td style="--start: .8; --size: .9;"> <span class="data"> 9 </span> </td>
+                    <td style="--start: .7; --size: .8;"> <span class="data"> 8 </span> </td>
+                    <td style="--start: .9; --size: 1;"> <span class="data"> 10 </span> </td>
+                </tr>
+                <tr>
+                    <th scope="row"> 2019 </th>
+                    <td style="--start: .1; --size: .1;"> <span class="data"> 1 </span> </td>
+                    <td style="--start: .3; --size: .2;"> <span class="data"> 2 </span> </td>
+                    <td style="--start: .2; --size: .3;"> <span class="data"> 3 </span> </td>
+                    <td style="--start: .7; --size: .5;"> <span class="data"> 5 </span> </td>
+                    <td style="--start: .6; --size: .7;"> <span class="data"> 7 </span> </td>
+                    <td style="--start: .4; --size: .4;"> <span class="data"> 4 </span> </td>
+                    <td style="--start: .5; --size: .6;"> <span class="data"> 6 </span> </td>
+                    <td style="--start: .9; --size: .9;"> <span class="data"> 9 </span> </td>
+                    <td style="--start: .8; --size: .8;"> <span class="data"> 8 </span> </td>
+                    <td style="--start: 1; --size: 1;"> <span class="data"> 10 </span> </td>
+                </tr>
+                <tr>
+                    <th scope="row"> 2020 </th>
+                    <td style="--start: .1; --size: .1;"> <span class="data"> 1 </span> </td>
+                    <td style="--start: .2; --size: .2;"> <span class="data"> 2 </span> </td>
+                    <td style="--start: .3; --size: .3;"> <span class="data"> 3 </span> </td>
+                    <td style="--start: .5; --size: .4;"> <span class="data"> 4 </span> </td>
+                    <td style="--start: .7; --size: .5;"> <span class="data"> 5 </span> </td>
+                    <td style="--start: .4; --size: .6;"> <span class="data"> 6 </span> </td>
+                    <td style="--start: .6; --size: .7;"> <span class="data"> 7 </span> </td>
+                    <td style="--start: .9; --size: .9;"> <span class="data"> 9 </span> </td>
+                    <td style="--start: .8; --size: .8;"> <span class="data"> 8 </span> </td>
+                    <td style="--start: 1; --size: 1;"> <span class="data"> 10 </span> </td>
+                </tr>
+                <tr>
+                    <th scope="row"> 2021 </th>
+                    <td style="--start: .1; --size: .1;"> <span class="data"> 1 </span> </td>
+                    <td style="--start: .2; --size: .2;"> <span class="data"> 2 </span> </td>
+                    <td style="--start: .3; --size: .3;"> <span class="data"> 3 </span> </td>
+                    <td style="--start: .4; --size: .4;"> <span class="data"> 4 </span> </td>
+                    <td style="--start: .5; --size: .5;"> <span class="data"> 5 </span> </td>
+                    <td style="--start: .6; --size: .6;"> <span class="data"> 6 </span> </td>
+                    <td style="--start: .7; --size: .7;"> <span class="data"> 7 </span> </td>
+                    <td style="--start: .9; --size: .8;"> <span class="data"> 8 </span> </td>
+                    <td style="--start: .8; --size: .9;"> <span class="data"> 9 </span> </td>
+                    <td style="--start: 1; --size: 1;"> <span class="data"> 10 </span> </td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+    <ul class="charts-css legend legend-inline legend-square">
+        <li>Javascript</li>
+        <li>Python</li>
+        <li>Java</li>
+        <li>Typescript</li>
+        <li>C#</li>
+        <li>PHP</li>
+        <li>C++</li>
+        <li>Shell</li>
+        <li>C</li>
+        <li>Ruby</li>
+    </ul>
+</body>
+
+</html>

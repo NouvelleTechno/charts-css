@@ -1,0 +1,37 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#my-chart .column, #my-chart2 .line{
+    height: 300px;
+    max-width: 600px;
+}
+.legend{
+    max-width: 600px;
+}
+#chart1 tbody{
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: inset -5px -5px 10px rgba(0, 0, 0, .5), 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+#chart1 tbody td{
+    margin-inline: 10px;
+    border-radius: 10px;
+    box-shadow: inset -5px -5px 10px rgba(0, 0, 0, .5), 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+#my-chart2 .charts-css{
+    /* --color-7: rgb(233, 11, 192); */
+}
+#my-chart2 tr {
+    transition-duration: 0.3s;
+  }
+  #my-chart2 tr:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  #my-chart2 tr:hover th {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+  }
+  
