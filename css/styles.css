@@ -22,7 +22,7 @@ body {
 }
 
 #my-chart2 .charts-css{
-    /* --color-7: rgb(233, 11, 192); */
+    --color-7: rgb(233, 11, 192);
 }
 #my-chart2 tr {
     transition-duration: 0.3s;
